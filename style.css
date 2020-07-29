@@ -1,0 +1,100 @@
+*
+{
+  margin:0;
+  padding:0;
+}
+body{
+  text-align: center;
+  font-family:"open-sans",sans-serif;
+}
+.navbar-custom
+{
+  background-color:none
+}
+.navbarbutton
+{
+
+}
+.navbartext
+{
+  color:#fff;
+  opacity:100%;
+}
+.first
+{
+  text-align: center;
+  height:50rem;
+  background-image: url("https://images.pexels.com/photos/1509534/pexels-photo-1509534.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940");
+  z-index: -1;
+
+}
+/* stevejohnson */
+.maintitle
+{
+  padding:18rem;
+  color:#fff;
+  font-family:'Cedarville Cursive',cursive;
+}
+.imminx
+{
+  font-size:5rem;
+}
+#about
+{
+  text-align: center;
+  padding:3rem;
+  background-color: #fff;
+}
+#contactme
+{
+  text-align: center;
+  padding:2.5rem;
+  background-color:#1fa9cf;
+}
+.last
+{
+  text-align: center;
+  padding:1rem;
+  background-color: #fff;
+}
+.links
+{
+  padding:4%;
+  margin:0 3% 0;
+}
+.zz
+{
+  size:2rem;
+}
+.buttonss
+{
+  margin:2%;
+}
+@media screen and (max-width: 600px)
+{
+  body
+  {
+    text-align:left;
+  }
+  .maintitle
+  {
+    text-align:left;
+    padding-left:10%;
+  }
+  .imminx
+  {
+    font-size:5rem;
+  }
+  #about
+  {
+    text-align:left;
+  }
+  #contactme
+  {
+    text-align:left;
+  }
+  .last
+  {
+    text-align:left;
+  }
+}
